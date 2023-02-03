@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    min-height: 140vh;
+}
+
+#digital-date1{
+    color: red; 
+    font-size: 36px; 
+    text-align: center;
+}
+
+#digital-date2{
+    color: red; 
+    font-size: 36px; 
+    text-align: center;
+}
+
+#digital-date3{
+    color: red; 
+    font-size: 36px; 
+    text-align: center;
+}
+
+#timezone{
+    color: red; 
+    font-size: 20px; 
+    text-align: center;
+}
+
+#clock-container{
+    border: 10px red;
+}
+
+#digital-clock1{
+    color: red; 
+    font-size:100px; 
+    text-align: center; 
+    padding: 10px; 
+    border: 10px solid red;
+}
+
+#digital-clock2{
+    color: red; 
+    font-size:100px; 
+    text-align: center; 
+    padding: 10px; 
+    border: 10px solid red;
+}
+
+#digital-clock3{
+    color: red; 
+    font-size:100px; 
+    text-align: center; 
+    padding: 10px; 
+    border: 10px solid red;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+header {
+    height: 150px;
+    width: 100%; 
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: rgb(255, 0, 0);
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#button{
+    line-height: 12px;
+    width: 31%;
+    font-size: 12pt;
+    font-family: tahoma;
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-left:20px;
+    margin-right:10px;
+}

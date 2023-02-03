@@ -1,0 +1,30 @@
+<!--This html file displays the current time, date, and day of the week.-->
+<!--It was built using the script in the clock.js file and digital_clock.css file-->
+
+<!DOCTYPE html>
+<html lang = "en">  
+<head>  
+    <meta charset = "UTF-8">  
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">  
+    <title>Digital Clock and Calendar</title>
+    <link href="digital_clock.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <h2>Digital Clock</h2>
+    <p>Click to toggle the display for each time zone clock.</p>
+    <button id="button" onclick="EST();hide1();">Eastern Standard Time</button>
+    <button id="button" onclick="CST();hide2();">Pacific Standard Time</button>
+    <button id="button" onclick="PST();hide3();">Central Standard Time</button>
+</header>
+<body>
+    <div id="clock-container"> 
+        <h1 id="h1id1" style="display:none;">Eastern Standard Time</h1><div id="digital-date1" style="display:none;"></div><div id = "digital-clock1" style="display:none;"></div> 
+        <br>
+        <h1 id="h1id2" style="display:none;">Pacific Standard Time</h1><div id="digital-date2" style="display:none;"></div><div id = "digital-clock2" style="display:none;"></div>
+        <br>
+        <h1 id="h1id3" style="display:none;">Central Standard Time</h1><div id="digital-date3" style="display:none;"></div><div id = "digital-clock3" style="display:none;"></div>
+    </div>
+    <script src='clock.js'></script>
+</body>
+</html>
