@@ -1,0 +1,46 @@
+.complete {
+    color: green;
+}
+
+.incomplete {
+    color: red;
+}
+
+#password {
+    width: 250px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(196, 196, 196);
+    background-image: url('pswrd-verify.jpeg');
+    background-repeat: repeat;
+    background-size:50%;
+}
+
+main {
+    color: white;
+    background-color: rgb(39, 36, 36);
+    width: 50%;
+    height: 650px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 50px 0;
+    border: 10px solid rgb(7, 232, 240);
+    border-radius: 25px;
+}
+
+#message {
+    color: green;
+    font-size: 24px;
+}
+
+h1,h2,h3,h4 {
+    font-style: italic;
+}
+
+#l1, #num, #l, #u, #s {
+    font-size: 20px;
+}
+

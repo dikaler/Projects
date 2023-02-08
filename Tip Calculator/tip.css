@@ -1,0 +1,58 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#price{
+    width:75px;
+    text-align: center;
+}
+
+#tip {
+    width:50px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    background-image: url('restaurant.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+
+main {
+    color: black;
+    background-color: white;
+    width: 50%;
+    height: 650px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 50px 0;
+    border: 10px solid rgb(255, 208, 0);
+    border-radius: 25px;
+}
+
+h1 {
+    text-decoration-line: underline;
+    text-decoration-style:double;
+    text-decoration-color: red;
+}
+
+h4 {
+    font-style: italic;
+}
+
+#section1, #section2 {
+    padding-top: 30px;
+}
+
+button {
+    padding: 5px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+div {
+    text-decoration-line: underline;
+}

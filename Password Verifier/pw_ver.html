@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Password Verification</title>
+        <link href="pw_ver.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <main>
+            <form>
+                <h1>Enter a password for verification: </h1>
+                <input type="password" id="password" placeholder="Enter your password"> 
+                <input type="checkbox" onclick="show();"/>Show Password</br>
+            </form>
+            <br>
+            <div>
+                <h2>A strong password must contain the following:</h2>
+                <h4 class="incomplete" id="l1"><i class="fa-solid fa-check" style="display: none;" id="length1"></i> Atleast 8 characters</h4>
+                <h4 class="incomplete" id="num"><i class="fa-solid fa-check" style="display: none;" id="number"></i> Atleast 1 number</h4>
+                <h4 class="incomplete" id="l"><i class="fa-solid fa-check" style="display: none;" id="lowercase"></i>Atleast 1 lowercase letter</h4>
+                <h4 class="incomplete" id="u"><i class="fa-solid fa-check" style="display: none;" id="uppercase"></i> Atleast 1 uppercase letter</h4>
+                <h4 class="incomplete" id="s"><i class="fa-solid fa-check" style="display: none;" id="special"></i>Atleast 1 special character</h4>
+            </div>
+            <br>
+            <h4 id="message" style="display:none;">You have entered a strong password.</h4>
+        </main>
+    </body>
+    <script src="pw_ver.js"></script>
+</html>
